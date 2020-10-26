@@ -53,7 +53,7 @@ int		parse_data(char **line, t_cfg *cfg, int fd)
 	else if (ret == -2)
 		write(1, "Error\nInvalid textures. Check XPM files and paths.\n", 51);
 	else if (ret == -3)
-		write(1, "Error\nInvalid floor data.\n", 28);
+		write(1, "Error\nInvalid floor data.\n", 26);
 	else if (ret == -4)
 		write(1, "Error\nInvalid ceiling data.\n", 28);
 	else if (ret == -6)
