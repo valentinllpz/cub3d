@@ -22,9 +22,9 @@
 # if defined(__linux__)
 #  define MAC_OS		0
 #  define LINUX			1
-#  define W				122
+#  define W				119
 #  define S				115
-#  define A				113
+#  define A				97
 #  define D				100
 #  define ESC			65307
 #  define LEFT			65361
